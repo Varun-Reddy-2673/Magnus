@@ -1,0 +1,22 @@
+main
+    run = true
+    repeat run
+        in = prs.num (cui.in ('n = '))
+        out = conversion (in)
+        cui.out ('n? = ' + prs.str (out [0]))
+        cui.out ('n! = ' + prs.str (out [1]))
+        dec = cui.in ('Continue (Y) - ')
+        run = dec == 'Y'
+    end
+end
+block conversion (number)
+    sum = 0
+    prod = 1
+    counter = 1
+    repeat counter <= number
+        sum += counter
+        prod *= counter
+        counter += 1
+    end
+    return [sum prod]
+end
