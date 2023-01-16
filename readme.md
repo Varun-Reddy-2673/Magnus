@@ -44,9 +44,13 @@ New variables do not require any special form of declaration. The initial value 
 ### Operators
 
 **+, +=** - addition of **num**, **str**, **array**
+<br>
 **-, -=** - subtraction
+<br>
 **\*, *=** - multiplication
+<br>
 **/, /=** - division
+<br>
 **^, ^=** - exponent
 
 ### Blocks
