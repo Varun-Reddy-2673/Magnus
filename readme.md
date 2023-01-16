@@ -79,9 +79,12 @@ New variables do not require any special form of declaration. The initial value 
 >   return a + b
 > end
 
-### In-built new_functions
+### In-built functions
 
 **cui.in** is used to take text input.
+<br>
 **cui.out** is used to print text.
+<br>
 **prs.str** is used to convert **num** to **str**.
+<br>
 **prs.num** is used to convert **str** to **num**.
