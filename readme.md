@@ -11,7 +11,13 @@ Magnus is an interpreted programming language written using C++.
 The main block of code that is to be executed is written under **main**.
 
 > main
+
+<br>
+
 >   { main code }
+
+<br>
+
 > end
 
 Lines in Magnus **do not** end with a semicolon (;). An EOL will suffice.
