@@ -41,6 +41,14 @@ New variables do not require any special form of declaration. The initial value 
 
 > sample_array = [five, 'Hi', ['nested', 'array']]
 
+### Operators
+
+**+, +=** - addition of **num**, **str**, **array**
+**-, -=** - subtraction
+**\*, *=** - multiplication
+**/, /=** - division
+**^, ^=** - exponent
+
 ### Blocks
 
 **main** contains the code that is executed at the start of the program.
@@ -66,3 +74,10 @@ New variables do not require any special form of declaration. The initial value 
 > block add (a b)
 >   return a + b
 > end
+
+### In-built new_functions
+
+**cui.in** is used to take text input.
+**cui.out** is used to print text.
+**prs.str** is used to convert **num** to **str**.
+**prs.num** is used to convert **str** to **num**.
