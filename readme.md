@@ -60,12 +60,12 @@ New variables do not require any special form of declaration. The initial value 
 **if**, **elif**, and **else** are conditional blocks whose execution depends on the value of the conditional statement.
 
 > if { condition }
->   { code }
-> elif { condition }
->   { code }
-> else
->   { code }
-> end
+> \n  { code }
+> \nelif { condition }
+> \n  { code }
+> \nelse
+> \n  { code }
+> \nend
 
 **repeat** is the Magnus equivalent of a while loop.
 
@@ -88,3 +88,7 @@ New variables do not require any special form of declaration. The initial value 
 **prs.str** is used to convert **num** to **str**.
 <br>
 **prs.num** is used to convert **str** to **num**.
+
+## Run program
+
+To run a program, run the command './magnus sample.mgn'.
