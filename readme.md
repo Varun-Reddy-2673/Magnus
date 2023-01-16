@@ -11,7 +11,7 @@ Magnus is an interpreted programming language written using C++.
 <p>The main block of code that is to be executed is written under **main**.</p>
 
 > main
->   <main code>
+>   { main code }
 > end
 
 <p>Lines in Magnus **do not** end with a semicolon (;). An EOL will suffice.</p>
@@ -45,18 +45,18 @@ Magnus is an interpreted programming language written using C++.
 <p>**main** contains the code that is executed at the start of the program.</p>
 <p>**if**, **elif**, and **else** are conditional blocks whose execution depends on the value of the conditional statement.</p>
 
-> if <condition>
->   <code>
-> elif <condition>
->   <code>
+> if { condition }
+>   { code }
+> elif { condition }
+>   { code }
 > else
->   <code
+>   { code }
 > end
 
 <p>**repeat** is the Magnus equivalent of a while loop.</p>
 
-> repeat <condition>
->   <code>
+> repeat { condition }
+>   { code }
 > end
 
 <p>**block** is used to write your own functions. **return** is used to return a value.</p>
