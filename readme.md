@@ -11,7 +11,9 @@ Magnus is an interpreted programming language written using C++.
 The main block of code that is to be executed is written under **main**.
 
 > main
+
 >   { main code }
+
 > end
 
 Lines in Magnus **do not** end with a semicolon (;). An EOL will suffice.
@@ -27,6 +29,7 @@ New variables do not require any special form of declaration. The initial value 
 **num** is used for numeric values. Both integers and decimals.
 
 > five = 5
+
 > pi_rounded_to_two_digits = 3.14
 
 **str** behaves like how strings do in any other programming language. They are defined using single-quotes ('').
@@ -60,23 +63,33 @@ New variables do not require any special form of declaration. The initial value 
 **if**, **elif**, and **else** are conditional blocks whose execution depends on the value of the conditional statement.
 
 > if { condition }
-> \n  { code }
-> \nelif { condition }
-> \n  { code }
-> \nelse
-> \n  { code }
-> \nend
+
+>   { code }
+
+> elif { condition }
+
+>   { code }
+
+> else
+
+>   { code }
+
+> end
 
 **repeat** is the Magnus equivalent of a while loop.
 
 > repeat { condition }
+
 >   { code }
+
 > end
 
 **block** is used to write your own functions. **return** is used to return a value.
 
 > block add (a b)
+
 >   return a + b
+
 > end
 
 ### In-built functions
